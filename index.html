@@ -1,0 +1,34 @@
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://unpkg.com/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+  <script src="main.js"></script>
+
+  {{/*  <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
+
+<script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@r128/build/three.module.js",
+      "three/addons/": "https://unpkg.com/three@r128/examples/jsm/"
+    }
+  }
+</script>  */}}
+</head>
+<body>
+  <div id="ui">
+    <h1 id="name">Fluffy</h1>
+    <div id="bars">
+      <div id="hunger" class="bar"></div>
+      <div id="happiness" class="bar"></div>
+      <div id="energy" class="bar"></div>
+    </div>
+    <div id="buttons">
+      <button id="feed">Feed</button>
+      <button id="play">Play</button>
+      <button id="pet">Pet</button>
+      <button id="rename">Rename</button>
+    </div>
+  </div>
+</body>
+</html>
